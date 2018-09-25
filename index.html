@@ -1,166 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Главная</title>
 </head>
+
 <body>
   <!-- Header-->
-  <div class="wrapper">   
-      <header class="header">
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header--logo">
+          <a href="#" class=" logoletter__upper">Афродита</a>
+        </div>
+        <ul class="nav">
+          <li class="nav__item nav__item--active">
+            <a href="#" class="nav__link nav__link--home">Главная</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--reviews">Отзывы</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--services">Услуги</a>
+          </li>
+        </ul>
+        <div class="contacts">
+          <a href="88000039210" class="contacts__call">8 (800) 00-392-10</a>
+          <div class="contacts__trigger">График работы</div>
+          <div class="contacts__dropdown-wrapper">
+            <ul class="contacts__dropdown">
+              <li class="contacts__dropdown-item">
+                пн-вс: 09:00 - 20:00
+              </li>
+              <li class="contacts__dropdown-item">
+                обед: 14:00 - 14:00
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--End Header-->
+    <!-- Promo-->
+    <main class="main">
+      <section class="promo">
         <div class="container">
-          <div class="header--logo">
-            <a href="#" class =" logo letter__upper">Афродита</a>
-          </div>
-            <ul class="nav">
-              <li class="nav__item nav__item--active">
-                <a href="#" class ="nav__link nav__link--home">Главная</a>
-              </li>
-              <li class="nav__item">
-                  <a href="#" class ="nav__link nav__link--reviews">Отзывы</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#" class ="nav__link nav__link--services">Услуги</a>
-                  </li>              
-            </ul>
-            <div class="contacts">
-            <a href="88000039210"  class="contacts__call">8 (800) 00-392-10</a>
-              <div class="contacts__trigger">График работы</div>
-                <div class="contacts__dropdown-wrapper">
-                  <ul class="contacts__dropdown">                     
-                    <li class="contacts__dropdown-item">
-                      пн-вс: 09:00 - 20:00
-                    </li>
-                    <li class="contacts__dropdown-item">
-                      обед: 14:00 - 14:00
-                    </li>
-                  </ul>
-                    </div>
+          <div class="promo__title">Just do it</div>
+          <!--??? -->
+          <div class="promo__image"></div>
+        </div>
+      </section>
+      <!-- Feautures-->
+      <section class="feautures">
+        <div class="container">
+          <h2 class="section__title">особенности</h2>
+          <ul class="feautures__col">
+            <li class="feautures__col-list">
+              <div class="feautures__image feautures__image--unique">
+                <img src="" class="feautures__image-elem" alt="">
               </div>
+              <h3 class="">уникальность</h3>
+              <div class="feutures__desc">
+                Мы делаем все, для вашего комфорта
+              </div>
+              <ul class="feautures__list">
+                <li class="feautures__item">Питание включено </li>
+                <li class="feautures__item">Багаж (5 кг) </li>
+                <li class="feautures__item">Душ/баня </li>
+              </ul>
+            </li>
+            <li class="feautures__col-list">
+              <div class="feautures__image feautures__image--premium">
+                <img src="" class="feautures__image-elem" alt="">
+              </div>
+              <h3 class="">премиум-класс</h3>
+              <div class="feutures__desc">
+                Наш зал оборудован тренажёрами A-класса
+              </div>
+              <ul class="feautures__list">
+                <li class="feautures__item">Качество </li>
+                <li class="feautures__item">Продуктивность </li>
+                <li class="feautures__item">Результат </li>
+              </ul>
+            </li>
+            <li class="feautures__col-list">
+              <div class="feautures__image feautures__image--trainer">
+                <img src="" class="feautures__image-elem" alt="">
+              </div>
+              <h3 class="">личный тренер</h3>
+              <div class="feautures__desc">
+                Тренер сделает всё для вашего результата
+              </div>
+              <ul class="feautures__list">
+                <li class="feautures__item">Программа </li>
+                <li class="feautures__item">Питание </li>
+                <li class="feautures__item">План тренеровок </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      </header>
-      <!--End Header-->
-      <!-- Promo-->
-      <main class="main">
-        <section class="promo">
-          <div class="container">
-              <div class="promo__title">Just do it</div><!--??? -->
-            <div class="promo__image"></div>
-          </div>
-        </section> 
-        <!-- Features-->
-        <section class ="feautures">
-          <div class="container">
-            <h2 class = "section__title">особенности</h2>
-            <ul class="feautures__col">
-              <li class ="feautures__col-list">
-                <div class="feautures__image feautures__image--unique">
-                    <img src="" class="feautures__image-elem" alt="">
+      </section>
+      <!-- End Feautures-->
+      <!-- Last News-->
+      <div class="news">
+        <div class="container">
+          <h2 class="section__title">Последние новости</h2>
+          <article class="news__container">
+            <ul class="news__list">
+              <li class="news__list--item">
+                <div class="news__item-wrap news__item-wrap--image">
+                  <img src="" alt="" class="news__image">
                 </div>
-                <h3 class ="">уникальность</h3>
-                <div class="feutures__desc">
-                    Мы делаем все, для вашего комфорта
+                <div class="news__content">
+                  <div class="news__content--date">
+                    12.10.2016
+                  </div>
+                  <h3 class="news__content--title">Похудение с помощью бодибилдинга! </h3>
+                  <div class="news__content--text">
+                    Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий, однако в минуту при самом
+                    высоком темпе
+                    движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого
+                    начинающего атлета.
+                  </div>
                 </div>
-                <ul class="feautures__list">
-                  <li class="feautures__item">Питание включено </li>
-                  <li class="feautures__item">Багаж (5 кг) </li>
-                  <li class="feautures__item">Душ/баня </li>
-                </ul>
               </li>
-              <li class ="feautures__col-list">
-                  <div class="feautures__image feautures__image--premium">
-                      <img src="" class="feautures__image-elem" alt="">
+              <li class="news__list--item">
+                <div class="news__item-wrap news__item-wrap--image">
+                  <img src="" alt="" class="news__image">
+                </div>
+                <div class="news__content">
+                  <div class="news__content--date">
+                    01.02.2016
                   </div>
-                  <h3 class ="">премиум-класс</h3>
-                  <div class="feutures__desc">
-                      Наш зал оборудован тренажёрами A-класса 
+                  <h3 class="news__content--title">Заражай друзей, получай призы!</h3>
+                  <div class="news__content--text">
+                    Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование
+                    баром, таблица замеров,
+                    дружеская атмосфера и постоянная поддержка. Мы заботимся о вашем комфорте и предлагаем испытать это
+                    уже сегодня!
                   </div>
-                  <ul class="feautures__list">
-                    <li class="feautures__item">Качество </li>
-                    <li class="feautures__item">Продуктивность </li>
-                    <li class="feautures__item">Результат </li>
-                  </ul>
-                </li>
-                <li class ="feautures__col-list">
-                    <div class="feautures__image feautures__image--trainer">
-                        <img src="" class="feautures__image-elem" alt="">
-                    </div>
-                    <h3 class ="">личный тренер</h3>
-                    <div class="feutures__desc">
-                        Тренер сделает всё для вашего результата
-                    </div>
-                    <ul class="feautures__list">
-                      <li class="feautures__item">Программа </li>
-                      <li class="feautures__item">Питание </li>
-                      <li class="feautures__item">План тренеровок </li>
-                    </ul>
-                  </li>
+                </div>
+              </li>
+              <li class="news__list--item">
+                <div class="news__item-wrap news__item-wrap--image">
+                  <img src="" alt="" class="news__image">
+                </div>
+                <div class="news__content">
+                  <div class="news__content--date">
+                    22.12.2015
+                  </div>
+                  <h3 class="news__content--title">Фрилансер? Выпрями спину!</h3>
+                  <div class="news__content--text">
+                    Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и
+                    вашему организму.
+                    Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте
+                    высоту и яркость
+                    монитора!
+                  </div>
+                </div>
+              </li>
             </ul>
-          </div>
-        </section>
-        <!-- End Features-->
-        <!-- Last News-->
-        <div class="news">
-          <div class="container">
-              <h2 class = "section__title">Последние новости</h2>
-                <article class ="news__container">
-                  <ul class="news__list">
-                    <li class="news__list--item">
-                      <div class="news__item-wrap news__item-wrap--image">
-                        <img src="" alt="" class ="news__image">
-                      </div>
-                      <div class="news__content">
-                        <div class="news__content--date">
-                          12.10.2016
-                        </div>
-                        <h3 class ="news__content--title">Похудение с помощью бодибилдинга! </h3>
-                        <div class="news__content--text">
-                            Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий, однако в минуту при самом высоком темпе 
-                            движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.
-                        </div>
-                      </div>
-                    </li>
-                    <li class="news__list--item">
-                        <div class="news__item-wrap news__item-wrap--image">
-                            <img src="" alt="" class ="news__image">
-                          </div>
-                          <div class="news__content">
-                            <div class="news__content--date">
-                              01.02.2016
-                            </div>
-                            <h3 class ="news__content--title">Заражай друзей, получай призы!</h3>
-                            <div class="news__content--text">
-                                Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, 
-                                дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!
-                            </div>
-                          </div>
-                    </li>
-                    <li class="news__list--item">
-                        <div class="news__item-wrap news__item-wrap--image">
-                            <img src="" alt="" class ="news__image">
-                          </div>
-                          <div class="news__content">
-                            <div class="news__content--date">
-                              22.12.2015
-                            </div>
-                            <h3 class ="news__content--title">Фрилансер? Выпрями спину!</h3>
-                            <div class="news__content--text">
-                                Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. 
-                                Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость 
-                                монитора!
-                            </div>
-                          </div>
-                    </li>
-                  </ul>
-                </article>
+            <!-- Aside-->
+            <aside class="sidebar">
+              <div class="sidebar__title">Топ новостей</div>
+              <div class="sidebar__month">За сентябрь</div>
+              <ul class="sidebar__images">
+                <li class="sidebar__image-container_one">
+                  <img src="" alt="" class="sidebar__image">
+                </li>
+                <li class="sidebar__image-container_two">
+                  <img src="" alt="" class="sidebar__image">
+                </li>
+                <li class="sidebar__image-container_three">
+                  <img src="" alt="" class="sidebar__image">
+                </li>
+              </ul>
+            </aside>
+          </article>
 
-          </div>
         </div>
-         <!--End Last News-->
-      </main>
-      <!--End Promo-->
+      </div>
+      <!--End Last News-->
+    </main>
+    <!--End Promo-->
   </div>
 </body>
+
 </html>
