@@ -25,6 +25,7 @@ a {
 .wrapper{
      position: relative;
      min-width:1140px;
+     width:100%;
      overflow: hidden;
    }
 .container{
@@ -43,8 +44,7 @@ a {
     font-family: 'open_sansblight';
     color:black;
     text-align:right;
-    padding-top:10px;
-    padding-bottom:10px;
+
   }
   .contacts__call{
     font-size:21px;
@@ -60,21 +60,17 @@ a {
   }
   .contacts__trigger,
   .contacts__trigger:hover {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 26px;
     color: rgba(248, 149, 19, 0.7);
     text-decoration:underline;
-    font-weight: 500;
-    padding-bottom: 30px;
+   font-family:'open_sansbold';
     transition: all 0.2s;
   }
-
   .contacts__dropdown-wrap{
     position: absolute;
     top: 65px;
-    /*height: 40px;
-    width: 25px;*/
-    left: 75%;
+    right:28%;
     display: none;
   }
   .contacts__dropdown {
@@ -82,7 +78,6 @@ a {
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    border: 1px solid #bebebe;
     background: #fff;
     padding: 10px;
     min-width: 150px;
@@ -110,4 +105,9 @@ a {
     top: -10px;
     border-width: 0px 6px 10px 6px;
   }
-  
+ /* .nav__link.nav__link--home{
+    background-image:url(../images/news/puls.png);
+    height:12px;
+    width:12px;
+  }*/
+ 
