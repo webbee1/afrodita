@@ -5,13 +5,11 @@ html, body {
 body{
   background: #fff;
   font-size:18px;
-	color:grey;
-}
-body{
-    font-family: 'open_sanslight', Arial, Helvetica, sans-serif;
+  color:grey;
+  font-family: 'open_sanslight', Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-   }
+}
 ul{
   margin:0;
   padding:0;
@@ -31,83 +29,11 @@ a {
 .container{
      max-width:1100px;
      margin:0 auto;
+     padding:2px;
    }
   img{
     max-width:100%;
     max-height:100%;
     background-size:contain;
   }
-  /*contacts*/
-   .contacts {
-    display: inline-block;
-    vertical-align: middle;
-    font-family: 'open_sansblight';
-    color:black;
-    text-align:right;
-
-  }
-  .contacts__call{
-    font-size:21px;
-    font-weight:bold;
-    color:white;
-  }
-   .contacts:hover .contacts__dropdown-wrap {
-    display: block;
-    color:black;
-   }
-  .contacts__dropdown-item{
-    margin-bottom:10px;
-  }
-  .contacts__trigger,
-  .contacts__trigger:hover {
-    font-size: 14px;
-    line-height: 26px;
-    color: rgba(248, 149, 19, 0.7);
-    text-decoration:underline;
-   font-family:'open_sansbold';
-    transition: all 0.2s;
-  }
-  .contacts__dropdown-wrap{
-    position: absolute;
-    top: 65px;
-    right:28%;
-    display: none;
-  }
-  .contacts__dropdown {
-    position: absolute;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    background: #fff;
-    padding: 10px;
-    min-width: 150px;
-    box-shadow: 0 0 7px #bebebe;
-   transform: translate(-50%, 0);
-    z-index: 10;
-  }
-  .contacts__dropdown:before,
-  .contacts__dropdown:after {
-    content: "";
-    border: solid transparent;
-    width: 0px;
-    margin-left: 0px;
-    left: 85%;
-    transform: transtlate(-50%);
-    position: absolute;
-  }
-  .contacts__dropdown:before {
-    border-bottom-color: #bebebe;
-    border-width: 0px 6px 11px 6px;
-    top: -11px;
-    }
-  .contacts__dropdown:after {
-    border-bottom-color: #fff;
-    top: -10px;
-    border-width: 0px 6px 10px 6px;
-  }
- /* .nav__link.nav__link--home{
-    background-image:url(../images/news/puls.png);
-    height:12px;
-    width:12px;
-  }*/
- 
+  
