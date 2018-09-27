@@ -215,10 +215,6 @@
   width: 220px;
   float: left;
 }
-.features__col-list:hover {
-  background: rgba(7, 4, 0, 0.7);
-  cursor: pointer;
-}
 .features__col-list{
 padding-right:50px;
 }
@@ -244,4 +240,37 @@ padding-right:50px;
 .feautures__image--trainer {
   background: url('../images/news/painter-palette.png')center no-repeat;
   background-color: #f89513;
+}
+.features__title--uppercase{
+  margin-top:40px;
+  font-weight:800;
+  font-size:11px;
+  line-height:5;
+  letter-spacing: 2.7;
+  margin-left:6px;
+  text-transform: uppercase;
+}
+.features__desc{
+  font-size:18px;
+  margin-top:15;
+  margin-bottom:26px;
+  text-decoration:none;
+}
+span.features__desc{
+  display:block;
+  padding-top:9px;
+}
+.features__list {
+  list-style: disc;
+  margin-left: 40px;
+}
+.features__item {
+  font-size: 16px;
+  text-align: left;
+  line-height: 2.2;
+  letter-spacing: 1.3px;
+  text-align: left;
+  padding-left: 10px;
+  list-style: disc;
+ padding-bottom:10px;
 }
