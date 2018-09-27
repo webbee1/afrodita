@@ -1,76 +1,132 @@
-.header{
-  width:100%;
+.header {
+  width: 100%;
   background-color: #131415;
 }
-.header--logo, .nav__item, .contacts, 
-.nav__link,ul.nav, .contacts{
-  display:inline-block;
+
+.logo,
+.nav,
+.nav__item,
+.contacts,
+.nav__text,
+.nav__icon {
+  display: inline-block;
 }
-.logoletter{
-font-family: 'gora_freeregular';
-font-size: 18px;
-letter-spacing: 1.8px;
-color: #f89513;
+
+.logo {
+  padding-top: 29px;
+  padding-bottom: 27px;
+  padding-left: 20px;
+  width: 30%;
 }
-.nav__link{
-font-size: 12px;
-color:#fff;
-font-weight:700;
-letter-spacing: 1.2px;
-margin:30px; /*?*/
+
+.logoletter {
+  font-family: 'gora_freeregular';
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  color: #f89513;
+}
+
+/*NAV*/
+.nav__link {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin: 30px;
+}
+
+.nav__text {
+  font-weight: 700;
+  font-size: 12px;
+  color: #ffffff;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.nav__icon {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.nav__item {
+  padding-right: 22px;
+}
+
+.nav__icon_puls {
+  background: url('../images/news/puls.png') no-repeat;
+  background-size: contain;
+  height: 15px;
+  width: 19px;
+}
+
+.nav__icon_star {
+  background: url('../images/news/star.png') no-repeat;
+  background-size: contain;
+  width: 17px;
+  height: 17px;
+}
+
+.nav__icon_gant {
+  background: url('../images/news/gant.png') no-repeat;
+  background-size: contain;
+  width: 15px;
+  height: 14px;
 
 }
-.nav__item{
-padding-right:35px; /*?*/
+
+.nav__active-text {
+  color: #f89513;
 }
-.header--logo{
-  width:25%;
-  vertical-align:middle;
+
+.nav__link:hover .nav__text,
+.nav__link_active .nav__text {
+  color: #f89513;
 }
-ul .nav{
-  width:45%;
-}
+
 /*contacts*/
 .contacts {
-  vertical-align: middle;
   font-family: 'open_sansblight';
-  color:black;
-  text-align:right;
-  width:25%;
-  position:relative;
-  margin-top:10px;
-  margin-bottom:5px;
+  float: right;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 17px;
+}
 
+.contacts__call {
+  font-size: 21px;
+  font-weight: bold;
+  color: #fff;
 }
-.contacts__call{
-  font-size:21px;
-  font-weight:bold;
-  color:white;
-}
- .contacts:hover .contacts__dropdown-wrap {
+
+.contacts:hover .contacts__dropdown-wrap {
   display: block;
-  color:black;
- }
-.contacts__dropdown-item{
-  margin-bottom:10px;
+  color: black;
 }
+
+.contacts__dropdown-item {
+  margin-bottom: 10px;
+}
+
 .contacts__trigger,
 .contacts__trigger:hover {
   font-size: 14px;
-  line-height: 26px;
   color: rgba(248, 149, 19, 0.7);
-  text-decoration:underline;
-  margin-top:3px;
-  font-family:'open_sansbold';
+  text-decoration: underline;
+  margin-top: 3px;
+  font-family: 'open_sansbold';
   transition: all 0.2s;
 }
+
 /*DROPDOWN*/
-.contacts__dropdown-wrap{
+.contacts__dropdown-wrap {
   position: absolute;
-  top: 60px;
-  right:30%;
+  top: 70px;
+  right: 27%;
   display: none;
 }
+
 .contacts__dropdown {
   position: absolute;
   border-radius: 3px;
@@ -80,9 +136,10 @@ ul .nav{
   padding: 10px;
   min-width: 150px;
   box-shadow: 0 0 7px #bebebe;
- transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
   z-index: 10;
 }
+
 .contacts__dropdown:before,
 .contacts__dropdown:after {
   content: "";
@@ -93,36 +150,39 @@ ul .nav{
   transform: transtlate(-50%);
   position: absolute;
 }
+
 .contacts__dropdown:before {
   border-bottom-color: #bebebe;
   border-width: 0px 6px 11px 6px;
   top: -11px;
-  }
+}
+
 .contacts__dropdown:after {
   border-bottom-color: #fff;
   top: -10px;
   border-width: 0px 6px 10px 6px;
 }
-.nav__link.nav__link{
-  text-transform:uppercase;
+
+.nav__link.nav__link {
+  text-transform: uppercase;
 }
-/*
-.nav__link.nav__link--home{
-  background-image:url(../images/news/puls.png);
-  height:12px;
-  width:12px; 
- 
+
+.contacts__dropdown-item:first-child {
+  color: #f89513;
 }
-*/
-/*MAIN*/
-.promo .container{
-  padding-top:75px;
-  padding-bottom:15px;
+
+/*PROMO*/
+.promo .container {
+  padding-top: 75px;
+  padding-bottom: 15px;
 }
-.promo__image{
-width:740px;
-/*height:486px;*/
-margin:0 auto;
-background-size:cover;
-overflow:hidden;
+
+.promo__image {
+  width: 740px;
+  height: 486px;
+  background: url("../images/intro/ranner.png") center center no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  background-size: cover;
+
 }
