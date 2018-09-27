@@ -365,3 +365,36 @@ span.features__desc {
   text-align: left;
   margin-top: 16px;
 }
+
+/*SIDEBAR*/
+.sidebar {
+  width: 190px;
+  float: right;
+}
+
+.sidebar__title,
+.sidebar__month {
+  font-family: 'open_sansbold';
+  font-size: 12px;
+  line-height: 21px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+
+.sidebar__title {
+  color: #221f1f;
+  margin-bottom: 9px;
+}
+
+.sidebar__month {
+  color: #656464;
+  margin-bottom: 22px;
+}
+
+.sidebar__image {
+  width: 160px;
+  text-align: center;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
