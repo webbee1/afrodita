@@ -186,61 +186,51 @@
   background-size: cover;
 
 }
-
 /*FEAUTURES*/
 .features {
   background-color: #131415;
-  color: white;
+  color: #fff;
   height: 570px;
   text-align: center;
 }
-
 .title__section {
   font-family: 'open_sansbold';
   font-size: 49px;
   font-weight: 900;
+  letter-spacing:1.5;
   text-transform: uppercase;
   line-height: 3.6;
-  margin-left: 6px;
+  margin-left: 12px;
   margin-bottom: 0;
 }
-
-.features__col {
-  margin: 0 auto;
-  margin-left: 170px;
-}
-
-.features__col,
-.features__list {
-  padding: 0;
+.features__col, .features__list {
   margin: 0;
+  padding:0;
 }
-
-.features__col-list {
+.features__col{
+  margin:0 auto;
+  margin-left:170px;
+}
+.features__col-list, .features__col-list--center {
   width: 220px;
   float: left;
 }
-
 .features__col-list:hover {
-  width: 220px;
-  /*float:left;*/
   background: rgba(7, 4, 0, 0.7);
   cursor: pointer;
 }
-
-.features__col {
-  list-style: none;
-  margin: 0 auto;
-  margin-left: 170px;
+.features__col-list{
+padding-right:50px;
 }
-
+.features__col-list--center {
+  padding-left:10px;
+}
 .features__image {
   width: 68px;
   height: 68px;
   border-radius: 50%;
   margin: 0 auto;
 }
-
 .features__image--unique {
   background: url('../images/news/flower.png')center no-repeat;
   background-color: #f89513;
