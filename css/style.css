@@ -364,6 +364,7 @@ span.features__desc {
   line-height: 1.6;
   text-align: left;
   margin-top: 16px;
+  margin-bottom: 20px;
 }
 
 /*SIDEBAR*/
@@ -397,4 +398,46 @@ span.features__desc {
   text-align: center;
   margin-left: 15px;
   margin-bottom: 20px;
+}
+
+/*PAGINATOR*/
+.paginator {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #656464;
+  text-align: center;
+
+}
+
+.paginator__block {
+  display: inline-block;
+  margin-right: 20px;
+
+}
+
+.paginator__btn--left {
+  color: rgba(39, 39, 62, 0.3);
+
+}
+
+.paginator__item,
+.paginator__btn,
+.paginator__list {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.paginator__link {
+
+  font-size: 14px;
+  color: #656464;
+}
+
+.paginator__link--active {
+  background-color: #27273e;
+  border-radius: 3px;
+  padding: 5px;
+  color: #fff;
 }
