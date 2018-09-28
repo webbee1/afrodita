@@ -44,3 +44,6 @@ a {
   display: block;
   clear: both;
 }
+.empty{
+  height:70px;
+}
