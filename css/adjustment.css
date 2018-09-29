@@ -7,7 +7,7 @@ body {
 body {
   background: #fff;
   font-size: 18px;
-  color:#fff;
+  color: #fff;
   font-family: 'open_sanslight', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -44,6 +44,16 @@ a {
   display: block;
   clear: both;
 }
-.empty{
-  height:70px;
+
+.empty {
+  height: 70px;
+}
+
+/*UPPERCASE*/
+.nav__link,
+.logoletter,
+.title__section,
+.sidebar__title,
+.sidebar__month {
+  text-transform: uppercase;
 }
