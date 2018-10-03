@@ -281,6 +281,7 @@ span.features__desc {
 
 .news__list {
   display: inline-block;
+  
 }
 
 .news__item {
@@ -343,25 +344,23 @@ span.features__desc {
 
 /*SIDEBAR*/
 .sidebar {
-  width: 190px;
-  float: right;
+ float: right;
+ position: relative;
+ top:44px;
 }
 
-.sidebar__title,
-.sidebar__month {
+.sidebar__title{
   font-family: 'open_sansbold';
+  font-weight:500;
   font-size: 12px;
-  line-height: 21px;
+  letter-spacing: 2.4px;
   text-align: left;
-  margin-left: 15px;
-}
-
-.sidebar__title {
   color: #221f1f;
   margin-bottom: 9px;
 }
 
-.sidebar__month {
+
+.sidebar__title--grey  {
   color: #656464;
   margin-bottom: 22px;
 }
@@ -369,8 +368,8 @@ span.features__desc {
 .sidebar__image {
   width: 160px;
   text-align: center;
-  margin-left: 15px;
-  margin-bottom: 20px;
+margin-bottom:11px;
+  
 }
 
 /*PAGINATOR*/
