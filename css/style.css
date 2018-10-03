@@ -13,6 +13,7 @@
   float: left;
   width: 30%;
   margin-top: 10px;
+  /*margin-top:14px*/
 }
 
 .logoletter {
@@ -20,6 +21,7 @@
   font-size: 18px;
   letter-spacing: 1.8px;
   color: #f89513;
+  /*margin-left:19px*/
 }
 
 /*NAV*/
@@ -27,6 +29,7 @@
   float: left;
   width: 37%;
   text-align: center;
+  /*padding-left:10px;*/
 }
 
 .nav__item {
@@ -36,7 +39,7 @@
   margin-left: 15px;
 }
 
-.nav__item:last-child{
+.nav__item:last-child {
   margin-right: 0;
 }
 
@@ -49,10 +52,10 @@
   display: inline-block;
   vertical-align: middle;
   background-size: contain;
-  transition:  0.3s;
+  transition: 0.3s;
 }
 
-.nav__link:before{
+.nav__link:before {
   content: '';
   background-position: center center;
   height: 15px;
@@ -76,27 +79,33 @@
   background-repeat: no-repeat;
 }
 
-.nav__link-main:hover, .nav__link--active-main {
+.nav__link-main:hover,
+.nav__link--active-main {
   background-image: url(../images/news/puls_hov.png);
   background-repeat: no-repeat;
 }
 
-.nav__link-review:hover, .nav__link--active-review {
+.nav__link-review:hover,
+.nav__link--active-review {
   background-image: url(../images/news/star_hov.png);
   background-repeat: no-repeat;
 }
 
-.nav__link-price:hover, .nav__link--active-price{
+.nav__link-price:hover,
+.nav__link--active-price {
   background-image: url(../images/news/gant__hov.png);
   background-repeat: no-repeat;
 }
+
 .nav__link {
-  color:#fff;
+  color: #fff;
 }
-.nav__link:hover{
+
+.nav__link:hover {
   color: #f89513;
 }
-.nav__link--active-main{
+
+.nav__link--active-main {
   color: #f89513;
 }
 
@@ -125,30 +134,29 @@
 }
 
 /*PROMO*/
-.promo{
-width:100%;
-height:552px;
-margin-bottom:30px;
+.promo {
+  width: 100%;
+  height: 561px;
+  margin-bottom: 33px;
 
 }
+
 .promo__image {
   margin: 0 auto;
   position: relative;
-  top:53px;
-  
+  top: 53px;
   width: 740px;
   height: 486px;
   background: url("../images/intro/ranner.png") no-repeat;
   background-position: center;
   background-size: contain;
-
 }
 
 /*FEAUTURES*/
 .features {
+  width: 100%;
   background-color: #131415;
   color: #fff;
-  height: 570px;
   text-align: center;
 }
 
@@ -156,35 +164,28 @@ margin-bottom:30px;
   font-family: 'open_sansbold';
   font-size: 49px;
   font-weight: 900;
-  letter-spacing: 1.5;
-  line-height: 3.6;
-  margin-left: 12px;
-  margin-bottom: 0;
-}
-
-.features__col,
-.features__list {
-  margin: 0;
-  padding: 0;
+  line-height: 1.5;
+  margin-bottom: 32px;
 }
 
 .features__col {
-  margin: 0 auto;
-  margin-left: 170px;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  font-size: 0;
 }
 
 .features__col-list,
 .features__col-list-center {
-  width: 220px;
-  float: left;
-}
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  background: pink;
+  border-radius: 5px;
+  margin-right: 6px;
+  padding: 15px;
+  overflow: hidden;
 
-.features__col-list {
-  padding-right: 50px;
-}
-
-.features__col-list-center {
-  padding-left: 10px;
 }
 
 .features__image {
@@ -210,41 +211,40 @@ margin-bottom:30px;
 }
 
 h3.features__title--uppercase {
-  margin-top: 40px;
+
   font-weight: 800;
   font-size: 11px;
   line-height: 5;
   letter-spacing: 2.7;
-  margin-left: 6px;
+
   text-transform: uppercase;
 }
 
 .features__desc {
   font-size: 18px;
-  margin-top: 15;
-  margin-bottom: 26px;
+
   text-decoration: none;
 }
 
 span.features__desc {
   display: block;
-  padding-top: 9px;
+
 }
 
 .features__list {
   list-style: disc;
-  margin-left: 40px;
+
 }
 
 .features__item {
   font-size: 16px;
   text-align: left;
-  line-height: 2.2;
+
   letter-spacing: 1.3px;
   text-align: left;
-  padding-left: 10px;
+
   list-style: disc;
-  padding-bottom: 10px;
+
 }
 
 /*NEWS*/
@@ -384,6 +384,9 @@ span.features__desc {
   margin-right: 15px;
 }
 
+.paginator__item:last-child {
+  margin-right: 0;
+}
 
 .paginator__link {
   font-size: 14px;
