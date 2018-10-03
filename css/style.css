@@ -155,9 +155,16 @@
 /*FEAUTURES*/
 .features {
   width: 100%;
+  min-height: 570px;
   background-color: #131415;
   color: #fff;
   text-align: center;
+  margin-bottom: 35px;
+}
+
+h2,
+h3 {
+  margin-top: 0;
 }
 
 .title__section {
@@ -165,34 +172,47 @@
   font-size: 49px;
   font-weight: 900;
   line-height: 1.5;
-  margin-bottom: 32px;
+  position: relative;
+  top: 46px;
+  margin-bottom: 78px;
+
 }
 
 .features__col {
-  margin: 0;
+  margin: 0px auto;
   list-style: none;
   padding: 0;
   font-size: 0;
 }
 
-.features__col-list,
-.features__col-list-center {
+.features__col-list {
   width: 25%;
   display: inline-block;
   vertical-align: top;
-  background: pink;
   border-radius: 5px;
   margin-right: 6px;
   padding: 15px;
   overflow: hidden;
-
+  cursor: pointer;
 }
+
+.features__col-list:hover {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 6px;
+  padding: 15px;
+  overflow: hidden;
+  border-radius: 5;
+  background-color: rgba(39, 39, 62, 0.2);
+}
+
 
 .features__image {
   width: 68px;
   height: 68px;
   border-radius: 50%;
-  margin: 0 auto;
+  margin: 0 auto 43px;
 }
 
 .features__image-unique {
@@ -210,20 +230,20 @@
   background-color: #f89513;
 }
 
-h3.features__title--uppercase {
-
-  font-weight: 800;
+.features__title {
   font-size: 11px;
-  line-height: 5;
-  letter-spacing: 2.7;
-
-  text-transform: uppercase;
+  letter-spacing: 2.6px;
+  font-family: 'open_sansbold';
+  text-align: center;
+  margin-bottom: 16px;
 }
 
-.features__desc {
+.features__desc,
+.feature__list {
   font-size: 18px;
-
-  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.67;
+  vertical-align: middle;
 }
 
 span.features__desc {
@@ -233,19 +253,24 @@ span.features__desc {
 
 .features__list {
   list-style: disc;
-
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
 }
 
 .features__item {
   font-size: 16px;
   text-align: left;
-
   letter-spacing: 1.3px;
-  text-align: left;
-
+  margin-bottom: 12px;
   list-style: disc;
-
+  line-height: 1.67
 }
+
+.features__item:last-child {
+  margin-bottom: 0;
+}
+
 
 /*NEWS*/
 .section__title_black {
