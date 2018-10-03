@@ -255,6 +255,7 @@ span.features__desc {
   list-style: disc;
   display: inline-block;
   vertical-align: middle;
+  margin-left:7px;
   padding: 5px;
 }
 
@@ -273,6 +274,9 @@ span.features__desc {
 
 
 /*NEWS*/
+.news{
+  margin-bottom:60px;
+}
 .title__section--black {
   color: #221f1f;
   line-height: 0.78;
@@ -281,7 +285,7 @@ span.features__desc {
 
 .news__list {
   display: inline-block;
-  
+  margin-bottom:20px;
 }
 
 .news__item {
@@ -369,9 +373,11 @@ span.features__desc {
   width: 160px;
   text-align: center;
 margin-bottom:11px;
-  
 }
 
+.sidebar__image:last-child{
+  margin-bottom:0;
+}
 /*PAGINATOR*/
 .paginator {
   font-family: 'Roboto';
@@ -384,7 +390,6 @@ margin-bottom:11px;
 
 .paginator__block {
   display: inline-block;
-  margin-right: 20px;
 
 }
 
@@ -398,10 +403,11 @@ margin-bottom:11px;
 .paginator__list {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 15px;
+ 
 }
 
-.paginator__item:last-child {
+.paginator__item:last-child, 
+.paginator__btn:last-child {
   margin-right: 0;
 }
 
@@ -410,13 +416,11 @@ margin-bottom:11px;
   color: #656464;
   background-color: transparent;
   border-radius: 3px;
-  padding: 6px;
+  padding: 5px;
 }
 
-.paginator__link-active {
+.paginator__item--active .paginator__link {
   background-color: #27273e;
-  border-radius: 3px;
-  padding: 6px;
   color: #fff;
 }
 
@@ -427,7 +431,8 @@ margin-bottom:11px;
   min-width: 1100px;
   overflow: hidden;
   padding-bottom: 10px;
-
+height:77px;
+margin-top:-77px;
 }
 
 .footer-logo {
