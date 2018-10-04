@@ -12,7 +12,8 @@
 .logo {
   float: left;
   width: 30%;
-  margin-top: 10px;
+  position: relative;
+  top: 10px;
 }
 
 .logoletter {
@@ -34,7 +35,7 @@
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .nav__item:last-child {
@@ -131,6 +132,7 @@
   transition: all 0.2s;
 }
 
+
 /*PROMO*/
 .promo {
   width: 100%;
@@ -187,12 +189,17 @@ h3 {
   width: 25%;
   display: inline-block;
   vertical-align: top;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-right: 6px;
   padding: 15px;
   overflow: hidden;
   cursor: pointer;
 }
+
+.features__col-list:las-child {
+  margin-right: 0;
+}
+
 
 .features__col-list:hover {
   width: 25%;
@@ -201,8 +208,8 @@ h3 {
   margin-right: 6px;
   padding: 15px;
   overflow: hidden;
-  border-radius: 5;
-  background-color: rgba(39, 39, 62, 0.2);
+  border-radius: 10;
+  background-color: rgba(48, 47, 49, 0.4);
 }
 
 
@@ -269,7 +276,6 @@ span.features__desc {
 .features__item:last-child {
   margin-bottom: 0;
 }
-
 
 /*NEWS*/
 .news {
@@ -412,7 +418,17 @@ span.features__desc {
 
 .paginator__link {
   font-size: 14px;
+  font-weight: 900;
   color: #656464;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.paginator__link:hover {
+  font-size: 14px;
+  font-weight: bold;
+  color: #f89513;
   background-color: transparent;
   border-radius: 3px;
   padding: 5px;
@@ -421,6 +437,11 @@ span.features__desc {
 .paginator__item--active .paginator__link {
   background-color: #27273e;
   color: #fff;
+}
+
+.paginator__item--active .paginator__link:hover {
+  background-color: #27273e;
+  color: #f89513;
 }
 
 /* FOOTER*/
