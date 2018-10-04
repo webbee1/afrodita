@@ -13,7 +13,6 @@
   float: left;
   width: 30%;
   margin-top: 10px;
-  /*margin-top:14px*/
 }
 
 .logoletter {
@@ -29,7 +28,6 @@
   float: left;
   width: 37%;
   text-align: center;
-  /*padding-left:10px;*/
 }
 
 .nav__item {
@@ -255,7 +253,7 @@ span.features__desc {
   list-style: disc;
   display: inline-block;
   vertical-align: middle;
-  margin-left:7px;
+  margin-left: 7px;
   padding: 5px;
 }
 
@@ -274,9 +272,10 @@ span.features__desc {
 
 
 /*NEWS*/
-.news{
-  margin-bottom:60px;
+.news {
+  margin-bottom: 60px;
 }
+
 .title__section--black {
   color: #221f1f;
   line-height: 0.78;
@@ -285,7 +284,7 @@ span.features__desc {
 
 .news__list {
   display: inline-block;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .news__item {
@@ -348,14 +347,14 @@ span.features__desc {
 
 /*SIDEBAR*/
 .sidebar {
- float: right;
- position: relative;
- top:44px;
+  float: right;
+  position: relative;
+  top: 44px;
 }
 
-.sidebar__title{
+.sidebar__title {
   font-family: 'open_sansbold';
-  font-weight:500;
+  font-weight: 500;
   font-size: 12px;
   letter-spacing: 2.4px;
   text-align: left;
@@ -363,8 +362,7 @@ span.features__desc {
   margin-bottom: 9px;
 }
 
-
-.sidebar__title--grey  {
+.sidebar__title--grey {
   color: #656464;
   margin-bottom: 22px;
 }
@@ -372,12 +370,13 @@ span.features__desc {
 .sidebar__image {
   width: 160px;
   text-align: center;
-margin-bottom:11px;
+  margin-bottom: 21px;
 }
 
-.sidebar__image:last-child{
-  margin-bottom:0;
+.sidebar__image:last-child {
+  margin-bottom: 0;
 }
+
 /*PAGINATOR*/
 .paginator {
   font-family: 'Roboto';
@@ -403,10 +402,10 @@ margin-bottom:11px;
 .paginator__list {
   display: inline-block;
   vertical-align: middle;
- 
+
 }
 
-.paginator__item:last-child, 
+.paginator__item:last-child,
 .paginator__btn:last-child {
   margin-right: 0;
 }
@@ -429,105 +428,101 @@ margin-bottom:11px;
   position: relative;
   background: #131415;
   min-width: 1100px;
+  padding: 19px 0;
   overflow: hidden;
-  padding-bottom: 10px;
-height:77px;
-margin-top:-77px;
+  height: 77px;
+  margin-top: -77px;
 }
 
-.footer-logo {
-  width: 30%;
-  float: left;
-  text-align: center;
-  margin-left: 50px;
-  padding-top: 27px;
-}
 
-.copy {
-  font-weight: 300;
-  color: #ffffff;
-  float: left;
-  width: 30%;
-  padding: 11px 0 0 20px;
-  line-height: 1.3;
-  font-family: 'open_sanslight';
+.footer__text {
   font-size: 14px;
+  font-weight: 300;
 }
 
-.copy__loft .copy__author {
-  font-family: 'open_sansbold';
-}
-
-.copy__loft {
-  color: white;
-  font-family: 'open_sansbold';
+.footer__text a {
   border-bottom: 1px solid white;
 }
 
-.socials {
-  width: 30%;
-
-  display: inline-block;
-  padding-top: 15px;
+.footer_auth,
+.footer__text a {
+  font-weight: bold;
+  color: #fff;
 }
 
-.socials,
-.socials__list {
-  display: inline-block;
+.footer .container {
+  font-size: 0;
+}
+
+.footer .container * {
   font-size: 14px;
+}
+
+.footer__col {
+  display: inline-block;
+  width: 33.3%;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.footer__col_mid {
+  text-align: center;
+}
+
+.footer__col_last {
   text-align: right;
 }
 
-.socials__list {
-  width: 300px;
-}
-
-.socials__item {
-  margin-left: 10px;
+.socials {
   display: inline-block;
-}
-
-.socials__item:first-child {
-  margin-left: 0;
+  text-align: left;
 }
 
 .socials__title {
-  margin-bottom: 12px;
-  font-weight: bold;
+  margin-bottom: 8px;
+  font-weight: 800;
+}
+
+.socials__item {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
 }
 
 .socials__link {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, .7);
+  background-color: #d0d0d0;
   display: block;
-  position: relative;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-.socials__link_vk {
+.socials__link:hover {
+  background-color: #f89513;
+  transition: 0.5s;
+}
+
+.socials__link--vk {
   background-image: url('../images/social/vk.png');
-
 }
 
-.socials__link_fb {
+.socials__link--fb {
   background-image: url('../images/social/fb.png');
-
 }
 
-.socials__link_google {
+.socials__link--goo {
   background-image: url('../images/social/goo.png');
-
 }
 
-.socials__link_tw {
+.socials__link--tw {
   background-image: url('../images/social/tw.png');
-
 }
 
-.socials__link_mail {
+.socials__link--mail {
   background-image: url('../images/social/mail.png');
-
 }
