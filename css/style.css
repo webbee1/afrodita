@@ -194,6 +194,10 @@ h3 {
   overflow: hidden;
   cursor: pointer;
 }
+.features__col-list:las-child {
+  margin-right: 0;
+}
+
 
 .features__col-list:hover {
   width: 25%;
