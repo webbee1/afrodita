@@ -290,6 +290,9 @@ span.features__desc {
 }
 
 /*NEWS*/
+.news{
+  padding-bottom:70px;
+}
 
 .title__section--black {
   color: #221f1f;
@@ -398,7 +401,6 @@ span.features__desc {
   font-size: 16px;
   color: #656464;
   text-align: center;
-  padding-bottom:70px;
 }
 
 .paginator__block {
@@ -434,20 +436,12 @@ span.features__desc {
 }
 
 .paginator__link:hover {
-  font-size: 14px;
-  font-weight: bold;
   color: #f89513;
-  background-color: transparent;
-  border-radius: 3px;
-  padding: 1px 5px;
-}
-
-.paginator__item--active .paginator__link {
   background-color: #27273e;
-  color: #fff;
 }
 
-.paginator__item--active .paginator__link:hover {
+.paginator__item--active .paginator__link,
+.paginator__item--active .paginator__link:hover{
   background-color: #27273e;
   color: #f89513;
 }
