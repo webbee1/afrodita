@@ -30,6 +30,14 @@ a {
   text-decoration: none;
 }
 
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+  font-weight:normal;
+}
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+}
 .wrapper {
   position: relative;
   min-width: 1100px;
@@ -41,6 +49,7 @@ a {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
+
 }
 
 .clearfix:after {
@@ -61,4 +70,10 @@ a {
 .sidebar__title,
 .features__title {
   text-transform: uppercase;
+}
+
+button{
+border:none;
+background:transparent;
+cursor:pointer;
 }

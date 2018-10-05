@@ -100,7 +100,9 @@
   color: #f89513;
 }
 
-.nav__link--active-main {
+.nav__link--active-main,
+.nav__link--active-price,
+.nav__link--active-review {
   color: #f89513;
 }
 
@@ -156,11 +158,6 @@
   color: #fff;
   text-align: center;
 
-}
-
-h2,
-h3 {
-  margin-top: 0;
 }
 
 .title__section {
@@ -550,6 +547,9 @@ span.features__desc {
   background-image: url('../images/social/mail.png');
 }
 /*REVIEW*/
+.breadcrumbs{
+  border:1px solid green;
+}
 .breadcrumbs__item{
   display:inline-block;
   vertical-align:middle;
@@ -569,4 +569,25 @@ display:inline-block;
 }
 .breadcrumbs__item:last-child:after{
 display:none;
+}
+.breadcrumbs__list{
+  
+}
+/*COMMENT*/
+.newswrap{
+  border:1px solid pink;
+  width:900px;
+  margin:0 auto;
+  padding:6px 8px;
+}
+.title__section--left {
+  color: #221f1f;
+  text-align: left;
+  line-height:0.78;
+}
+.news__container--comment{
+  border:1px solid blue;
+}
+.news__content--comment{
+  width:700px;
 }
