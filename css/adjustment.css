@@ -13,6 +13,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -28,15 +32,15 @@ a {
 
 .wrapper {
   position: relative;
-  min-width: 1140px;
-  width: 100%;
+  min-width: 1100px;
+  min-height: 100%;
   overflow: hidden;
 }
 
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 2px;
+  padding: 0 20px;
 }
 
 .clearfix:after {
@@ -44,9 +48,10 @@ a {
   display: block;
   clear: both;
 }
-
-.empty {
-  height: 70px;
+.wrapper:after{
+  content:"";
+  display:block;
+  height:77px;
 }
 
 /*UPPERCASE*/
@@ -54,6 +59,6 @@ a {
 .logoletter,
 .title__section,
 .sidebar__title,
-.sidebar__month {
+.features__title {
   text-transform: uppercase;
 }
