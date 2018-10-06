@@ -14,34 +14,45 @@
 @import url(./blocks/footer.css);
 @import url(./blocks/socials.css);
 @import url(./blocks/breadcrumbs.css);
+@import url(./blocks/intro.css);
 @import url();
 @import url();
 @import url();
-@import url();
 
 
 
 
 
-
-
-
-
-/*COMMENT*/
-/*.newswrap{
-  border:1px solid pink;
+.container-middle{
   width:900px;
   margin:0 auto;
-  padding:6px 8px;
 }
-.title__section--left {
-  color: #221f1f;
-  text-align: left;
-  line-height:0.78;
+.price__title{
+  text-align:left;
+  margin-bottom:15px;
+
 }
-.news__container--comment{
-  border:1px solid blue;
+.price__desc-text{
+  font-size:14px;
+  color:#221f1f;
 }
-.news__content--comment{
-  width:700px;
-}*/
+.price__item{
+  display:inline-block;
+  vertical-align:top;
+  width:33.3%;
+  margin-bottom:70px;
+}
+.price__item-link{
+  display:block;
+  padding:0 10px;
+}
+.price__pic{
+  position: relative;
+}
+.price__pic img{
+  display:block;
+  max-width:100%;
+}
+.price__desc-text{
+  margin-bottom:10px;
+}
