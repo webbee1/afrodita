@@ -1,0 +1,24 @@
+
+/*contacts*/
+.contacts {
+  float: right;
+  width: 31%;
+  text-align: right;
+}
+
+.contacts__call {
+  font-size: 21px;
+  font-family: 'open_sansbold';
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contacts__trigger,
+.contacts__trigger:hover {
+  font-size: 14px;
+  color: rgba(248, 149, 19, 0.7);
+  text-decoration: underline;
+  font-family: 'open_sansbold';
+  transition: all 0.2s;
+}
