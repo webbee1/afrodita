@@ -15,44 +15,11 @@
 @import url(./blocks/socials.css);
 @import url(./blocks/breadcrumbs.css);
 @import url(./blocks/intro.css);
+@import url(./blocks/review.css);
+@import url(.blocks/price.css);
 @import url();
-@import url();
-@import url();
 
 
 
 
 
-.container-middle{
-  width:900px;
-  margin:0 auto;
-}
-.price__title{
-  text-align:left;
-  margin-bottom:15px;
-
-}
-.price__desc-text{
-  font-size:14px;
-  color:#221f1f;
-}
-.price__item{
-  display:inline-block;
-  vertical-align:top;
-  width:33.3%;
-  margin-bottom:70px;
-}
-.price__item-link{
-  display:block;
-  padding:0 10px;
-}
-.price__pic{
-  position: relative;
-}
-.price__pic img{
-  display:block;
-  max-width:100%;
-}
-.price__desc-text{
-  margin-bottom:10px;
-}

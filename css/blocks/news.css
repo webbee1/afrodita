@@ -1,7 +1,4 @@
 /*NEWS*/
-.news{
-  padding-bottom:70px;
-}
 
 .title__section--black {
   color: #221f1f;
@@ -39,6 +36,8 @@
   width: 650px;
   margin-left: 15px;
   display: inline-block;
+  font-size:18px;
+  font-family: 'open_sanslight;
 }
 
 .news__content-date {

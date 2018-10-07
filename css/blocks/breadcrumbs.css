@@ -1,7 +1,6 @@
 /*REVIEW*/
 .breadcrumbs{
-  border:1px solid green;
-  
+  margin-bottom:30px;
 }
 .breadcrumbs__item{
   display:inline-block;
