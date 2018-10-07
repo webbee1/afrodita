@@ -50,3 +50,6 @@
   background-color: #27273e;
   color: #f89513;
 }
+.paginator--left{
+  margin-bottom:0;
+}

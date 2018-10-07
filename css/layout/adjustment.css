@@ -51,7 +51,9 @@ table{
   padding: 0 20px;
   
 }
-
+.container--mid {
+  width: 930px;
+}
 .clearfix:after {
   content: "";
   display: block;
