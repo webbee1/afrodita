@@ -12,7 +12,7 @@
   top: 53px;
   width: 740px;
   height: 486px;
-  background: url("/images/intro/ranner.png") no-repeat;
+  background: url("../images/intro/ranner.png") no-repeat;
   background-position: center;
   background-size: contain;
 }

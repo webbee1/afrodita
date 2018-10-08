@@ -3,7 +3,7 @@
   width: 100%;
   min-height: 170px;
   background-color: #131415;
-  background-image: url(/images/pattern/pattern.png);
+  background-image: url(../../images/pattern/pattern.png);
 display:block;
 margin-bottom:60px;
 }

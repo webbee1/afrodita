@@ -79,17 +79,17 @@ span.title {
 }
 
 .features__image-unique {
-  background: url('/images/news/flower.png')center no-repeat;
+  background: url('../images/news/flower.png')center no-repeat;
   background-color: #f89513;
 }
 
 .feautures__image-premium {
-  background: url('/images/news/mark-as-favorite-star.png')center no-repeat;
+  background: url('../images/news/mark-as-favorite-star.png')center no-repeat;
   background-color: #f89513;
 }
 
 .feautures__image-trainer {
-  background: url('/images/news/painter-palette.png')center no-repeat;
+  background: url('../images/news/painter-palette.png')center no-repeat;
   background-color: #f89513;
 }
 

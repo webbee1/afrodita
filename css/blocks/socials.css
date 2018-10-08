@@ -34,21 +34,21 @@
 }
 
 .socials__link--vk {
-  background-image: url('/images/social/vk.png');
+  background-image: url('../images/social/vk.png');
 }
 
 .socials__link--fb {
-  background-image: url('/images/social/fb.png');
+  background-image: url('../images/social/fb.png');
 }
 
 .socials__link--goo {
-  background-image: url('/images/social/goo.png');
+  background-image: url('../images/social/goo.png');
 }
 
 .socials__link--tw {
-  background-image: url('/images/social/tw.png');
+  background-image: url('../images/social/tw.png');
 }
 
 .socials__link--mail {
-  background-image: url('/images/social/mail.png');
+  background-image: url('../images/social/mail.png');
 }
