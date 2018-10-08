@@ -23,14 +23,16 @@
 .intro__button {
   width: 172px;
   height: 45px;
-  padding: 15px 5px;
+  padding: 17px 0px;
   border-radius: 3px;
   background-color: #f89513;
   color: #fff;
   font-size: 12px;
-  font-weight: bold;
+   font-family: 'open_sansbold';
+   text-transform:uppercase;
   display: inline-block;
   letter-spacing: 1.2px;
+  transition: 0.5s;
 }
 
 .intro__button:hover {
