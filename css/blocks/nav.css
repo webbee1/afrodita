@@ -36,31 +36,31 @@
 }
 
 .nav__link-main {
-  background: url(../images/news/home_pulse.png) 0 -36px no-repeat;
+  background: url(../../images/news/home_pulse.png) 0 -36px no-repeat;
 }
 
 .nav__link-review {
-  background: url(../images/news/home_star.png) 0 -41px no-repeat;
+  background: url(../../images/news/home_star.png) 0 -41px no-repeat;
 
 }
 
 .nav__link-price {
-  background: url(../images/news/home_gant.png) 0 -40px no-repeat;
+  background: url(../../images/news/home_gant.png) 0 -40px no-repeat;
 }
 
 
 .nav__link--active-main {
-  background: url(../images/news/home_pulse.png) 0px -1px no-repeat;
+  background: url(../../images/news/home_pulse.png) 0px -1px no-repeat;
 }
 
 
 .nav__link--active-review {
-  background: url(../images/news/home_star.png) 0px -1px no-repeat;
+  background: url(../../images/news/home_star.png) 0px -1px no-repeat;
 }
 
 
 .nav__link--active-price {
-  background: url(../images/news/home_gant.png) 0 0px no-repeat;
+  background: url(../../images/news/home_gant.png) 0 0px no-repeat;
 }
 
 .nav__link {
