@@ -11,6 +11,7 @@
   display: inline-block;
   vertical-align: middle;
   margin-left: 25px;
+  
 }
 
 .nav__item:last-child {
@@ -31,12 +32,12 @@
   display: inline-block;
   width: 19px;
   height: 17px;
-  transition: .2s ease-out;
+  
 
 }
 
 .nav__link-main {
-  background: url(../../images/news/home_pulse.png) 0 -36px no-repeat;
+  background: url(../../images/news/home_pulse.png) 0 -35px no-repeat;
 }
 
 .nav__link-review {
@@ -50,7 +51,7 @@
 
 .nav__link-main:hover,
 .nav__link--active-main {
-  background: url(../../images/news/home_pulse.png) 0px -1px no-repeat;
+  background: url(../../images/news/home_pulse.png) 0px 1px no-repeat;
 }
 
 .nav__link-review:hover,

@@ -22,3 +22,10 @@
   font-family: 'open_sansbold';
   transition: all 0.2s;
 }
+
+.contacts__trigger:hover {
+  font-size: 14px;
+  color: #fff;
+
+  transition: all 0.2s;
+}

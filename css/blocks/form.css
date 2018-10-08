@@ -69,7 +69,9 @@
   font-size: 14px;
   color: #221f1f;
 }
-
+.form__radio-label:last-child{
+  margin-right:0;
+}
 .form__custom-radio {
   display: inline-block;
   box-sizing: border-box;
@@ -104,11 +106,12 @@
 .form__submit-label {
   width: 140px;
   display: inline-block;
-  background-color: #131415;
+  background-color: #1c1f1d;
   color: white;
   border-radius: 3px;
   font-size: 12px;
-  font-weight: bold;
+  font-family: 'open_sansbold';
+  text-transform:uppercase;
   position: relative;
   text-align: center;
   padding: 17px 0px;
