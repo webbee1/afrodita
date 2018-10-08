@@ -48,17 +48,17 @@
   background: url(../../images/news/home_gant.png) 0 -40px no-repeat;
 }
 
-
+.nav__link-main:hover,
 .nav__link--active-main {
   background: url(../../images/news/home_pulse.png) 0px -1px no-repeat;
 }
 
-
+.nav__link-review:hover,
 .nav__link--active-review {
   background: url(../../images/news/home_star.png) 0px -1px no-repeat;
 }
 
-
+.nav__link-price:hover,
 .nav__link--active-price {
   background: url(../../images/news/home_gant.png) 0 0px no-repeat;
 }
@@ -67,7 +67,7 @@
   color: #fff;
 }
 
-.nav__item:hover {
+.nav__link:hover {
   color: #f89513;
 }
 
