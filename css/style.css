@@ -1,6 +1,6 @@
-@import url(../css/layout/fonts.css);
+@import url(./layout/fonts.css);
 @import url(./layout/normalize.css);
-@import url(../layout/adjustment.css);
+@import url(./layout/adjustment.css);
 
 @import url(./blocks/header.css);
 @import url(./blocks/logo.css);
