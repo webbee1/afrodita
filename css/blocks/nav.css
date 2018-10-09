@@ -2,7 +2,7 @@
 .nav__list {
   float: left;
   width: 37%;
-  text-align: center;
+ text-align: center;
   padding: 8px 0;
 }
 
@@ -11,7 +11,6 @@
   display: inline-block;
   vertical-align: middle;
   margin-left: 25px;
-  
 }
 
 .nav__item:last-child {
@@ -32,8 +31,6 @@
   display: inline-block;
   width: 19px;
   height: 17px;
-  
-
 }
 
 .nav__link-main {
@@ -64,20 +61,9 @@
   background: url(../../images/news/home_gant.png) 0 0px no-repeat;
 }
 
-.nav__link {
-  color: #fff;
-}
-
-.nav__link:hover {
-  color: #f89513;
-}
-
+.nav__link:hover,
 .nav__link--active-main,
 .nav__link--active-price,
 .nav__link--active-review {
-  color: #f89513;
-}
-
-.nav__link-price .nav__link--active-price:hover {
   color: #f89513;
 }

@@ -31,6 +31,7 @@
    font-family: 'open_sansbold';
    text-transform:uppercase;
   display: inline-block;
+  text-align:center;
   letter-spacing: 1.2px;
   transition: 0.5s;
 }
