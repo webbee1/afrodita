@@ -38,19 +38,20 @@
 }
 
 .price__par {
-  position: relative;
+  
   color:#fff;
   text-align: center;
   font-size: 24px;
   font-family: 'open_sansbold';
-  padding-top: 66px;
+ margin-bottom:0;
+ width:100%;
   box-sizing: border-box;
   letter-spacing: 1px;
   text-transform: uppercase;
   position: absolute;
-  left: 50%;
-  top: 25%;
-  transform: translate(-50%,-50%);
+  left: 45%;
+  top: 45%;
+  transform: translate(-45%,-45%);
 }
 
 .price__name {
@@ -61,7 +62,7 @@
   line-height: 1.17;
   position: relative;
   display:inline-block;
-  
+  box-sizing:border-box;
 }
 
 .price__content {
