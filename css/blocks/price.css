@@ -8,13 +8,19 @@
   padding: 5px;
   display: inline-block;
   vertical-align: top;
-  margin-bottom: 50px;
+ 
   margin-right:48px;
   margin-bottom:35px;
 }
+
 .price__item:nth-child(3n) {
 	margin-right:0;
 }
+
+.price__item:nth-child(4n) {
+	margin-bottom:0;
+}
+
 .price__serv {
   position: relative;
   width: 250px;
@@ -74,3 +80,30 @@
   color: #221f1f;
  overflow:hidden;
 }
+.partners__list{
+  width:740px;
+  margin:0 auto;
+  margin-bottom:43px;
+}
+
+.partners__item{
+  display:inline-block;
+  width: 180px;
+  vertical-align:middle;
+  text-align:center;
+  margin-bottom: 30px;
+  margin-right: 90px;
+  padding-top: 15px;
+
+}
+
+.partners__item:nth-child(3n) {
+  margin-right:0;
+}
+.partners__link{
+  filter: grayscale(100%) opacity(52%);
+  transition: 0.9s;
+}
+.partners__link:hover{
+  filter: grayscale(0%) opacity(100%);
+ }
