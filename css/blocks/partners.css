@@ -1,24 +1,30 @@
-.partners__list {
-  width: 740px;
+.partners__list{
+  width: 800px;
   margin: 0 auto;
+  padding: 27px 4px;
   margin-bottom: 43px;
 }
-
 .partners__item {
-  display: inline-block;
-  width: 180px;
-  vertical-align: middle;
-  text-align: center;
-  margin-bottom: 30px;
-  margin-right: 90px;
-  padding-top: 15px;
+  width: 30%;
+    display: inline-block;
+    vertical-align: justify;
+    margin-right: 11px;
+    padding: 8px 6px;
+    margin-bottom: 9px;
+    cursor: pointer;
+    transition: 0.5s;
 
 }
 
 .partners__item:nth-child(3n) {
   margin-right: 0;
+  text-align:right;
 }
 
+.partners__item:nth-child(5n+2),
+.partners__item:nth-child(5n+5) {
+  text-align:right;
+  }
 .partners__link {
   filter: grayscale(100%) opacity(52%);
   transition: 1s;
