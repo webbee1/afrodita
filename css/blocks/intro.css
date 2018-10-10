@@ -23,20 +23,19 @@
 .intro__button {
   width: 172px;
   height: 45px;
-  padding: 17px 0px;
   border-radius: 3px;
   background-color: #f89513;
   color: #fff;
   font-size: 12px;
-   font-family: 'open_sansbold';
-   text-transform:uppercase;
-  display: inline-block;
-  text-align:center;
-  letter-spacing: 1.2px;
-  transition: 0.5s;
+  font-family: 'open_sansbold';
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.7s;
 }
 
 .intro__button:hover {
   background-color: #131415;
-  transition: 0.5s;
+  transition: 0.7s;
 }
