@@ -22,7 +22,6 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: #d0d0d0;
   display: block;
   background-position: center center;
   background-repeat: no-repeat;
@@ -34,21 +33,27 @@
 }
 
 .socials__link--vk {
-  background-image: url('../../images/social/vk.png');
+  
+  background: url('../../images/sprites/sprite_all.png') 83px 46px;
+  background-color: #d0d0d0;
 }
 
 .socials__link--fb {
-  background-image: url('../../images/social/fb.png');
+  background: url('../../images/sprites/sprite_all.png') -82px 43px;
+  background-color: #d0d0d0;
 }
 
 .socials__link--goo {
-  background-image: url('../../images/social/goo.png');
+  background: url('../../images/sprites/sprite_all.png') 19px 45px;
+  background-color: #d0d0d0;
 }
 
 .socials__link--tw {
-  background-image: url('../../images/social/tw.png');
+ background: url('../../images/sprites/sprite_all.png') 40px 45px;
+  background-color: #d0d0d0;
 }
 
 .socials__link--mail {
-  background-image: url('../../images/social/mail.png');
+  background: url('../../images/sprites/sprite_all.png') 62px 45px;
+  background-color: #d0d0d0;
 }
