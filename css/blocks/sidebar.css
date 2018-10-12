@@ -1,28 +1,21 @@
-
 /*SIDEBAR*/
-.sidebar {
-  float: right;
-  position: relative;
-  top: 27px;
-}
 
 .sidebar__title {
   font-family: 'open_sansbold';
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 2.4px;
-  text-align: left;
+  text-align: center;
   color: #221f1f;
-  margin-bottom: 9px;
 }
 
 .sidebar__title--grey {
   color: #656464;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 .sidebar__image {
-
   text-align: center;
   margin-bottom: 21px;
 }

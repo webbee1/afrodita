@@ -1,4 +1,3 @@
-
 /* FOOTER*/
 .footer {
   position: relative;
@@ -36,14 +35,11 @@
 
 .footer__col {
   display: inline-block;
-  width: 33.3%;
+  width: 50%;
   vertical-align: middle;
   color: #fff;
 }
 
-.footer__col_mid {
-  text-align: center;
-}
 
 .footer__col_last {
   text-align: right;

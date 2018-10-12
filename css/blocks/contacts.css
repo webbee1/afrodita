@@ -1,8 +1,7 @@
 .contacts-box {
   text-align: right;
-  width: 31%;
+  width: 50%;
   position: relative;
-  display: inline-block;
 }
 
 .contacts__phone {

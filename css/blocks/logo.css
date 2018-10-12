@@ -1,9 +1,6 @@
-
 .logo {
-  float: left;
-  width: 30%;
-  position: relative;
-  top: 10px;
+  width: 50%;
+  text-align: left
 }
 
 .logoletter {
@@ -11,9 +8,12 @@
   font-size: 18px;
   letter-spacing: 1.8px;
   color: #f89513;
+  display: inline-block;
+  line-height: 2.5;
+  position: relative;
 }
+
 .logoletter:hover {
   opacity: .7;
   transition: 0.5s;
-
 }

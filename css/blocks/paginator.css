@@ -5,12 +5,16 @@
   font-size: 16px;
   color: #656464;
   text-align: center;
-  padding-bottom:70px;
+vertical-align:middle;
+
+  padding-bottom:32px;
+ 
 }
 
 .paginator__block {
   display: inline-block;
   vertical-align: middle;
+ 
 }
 
 .paginator__btn--left {

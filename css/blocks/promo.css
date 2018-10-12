@@ -1,18 +1,15 @@
 /*PROMO*/
 .promo {
-  width: 100%;
-  height: 561px;
-  margin-bottom: 33px;
-
+  vertical-align: top;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .promo__image {
-  margin: 0 auto;
-  position: relative;
-  top: 53px;
+
+  text-align: right;
   width: 740px;
   height: 486px;
   background: url("../../images/intro/ranner.png") no-repeat;
-  background-position: center;
   background-size: contain;
 }

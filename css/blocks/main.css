@@ -1,0 +1,12 @@
+.col__left {
+  width: 25%;
+  padding: 20px 5px;
+  margin-left: 0;
+  float: left;
+
+}
+
+.col__right {
+  width: 73%;
+  float: right;
+}

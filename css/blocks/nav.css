@@ -1,69 +1,75 @@
 /*NAV*/
-.nav__list {
-  float: left;
-  width: 37%;
- text-align: center;
-  padding: 13px 0;
+.nav {
+  max-width: 150px;
+  padding: 10px 5px;
+  margin:0 auto;
+  margin-bottom: 14px;
 }
 
 .nav__item {
   cursor: pointer;
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 25px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-right:30px;
 }
 
 .nav__item:last-child {
-  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .nav__link {
   font-family: 'open_sansbold';
   font-size: 12px;
-  color: #fff;
+  color: #f89513;
   font-weight: 700;
-  vertical-align: middle;
+  letter-spacing: 1.2px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
 }
 
 .nav__link:before {
   content: '';
   margin-right: 15px;
+  background-position: center center;
   display: inline-block;
-  width: 19px;
-  height: 17px;
+  vertical-align: baseline;
+  width: 20px;
+  height: 18px;
+
 }
 
 .nav__link-main {
-  background: url(../../images/news/home_pulse.png) 0 -35px no-repeat;
+  background: url(../../images/news/home_pulse.png) 0 3px no-repeat;
 }
 
 .nav__link-review {
-  background: url(../../images/news/home_star.png) 0 -41px no-repeat;
+  background: url(../../images/news/home_star.png) 0 1px no-repeat;
 
 }
 
 .nav__link-price {
-  background: url(../../images/news/home_gant.png) 0 -40px no-repeat;
+  background: url(../../images/news/home_gant.png) 0 5px no-repeat;
 }
 
 .nav__link-main:hover,
 .nav__link--active-main {
-  background: url(../../images/news/home_pulse.png) 0px 1px no-repeat;
+  background: url(../../images/news/home_pulse.png) 0 -15px no-repeat;
 }
 
 .nav__link-review:hover,
 .nav__link--active-review {
-  background: url(../../images/news/home_star.png) 0px -1px no-repeat;
+  background: url(../../images/news/home_star.png) 0 -19px no-repeat;
 }
 
 .nav__link-price:hover,
 .nav__link--active-price {
-  background: url(../../images/news/home_gant.png) 0 0px no-repeat;
+  background: url(../../images/news/home_gant.png) 0 -15px no-repeat;
 }
 
 .nav__link:hover,
 .nav__link--active-main,
 .nav__link--active-price,
 .nav__link--active-review {
-  color: #f89513;
+  color: #221f1f;
 }
