@@ -1,12 +1,15 @@
-.col__left {
-  width: 25%;
-  padding: 20px 5px;
-  margin-left: 0;
-  float: left;
+.maincontent {
+  display: flex;
+}
 
+.col__left {
+  padding: 20px 10px;
 }
 
 .col__right {
-  width: 73%;
-  float: right;
+  flex: 3;
+}
+
+.col__left {
+  flex: 1;
 }

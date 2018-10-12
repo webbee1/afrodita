@@ -1,8 +1,8 @@
 /*FEAUTURES*/
 .features {
-  width: 267px;
-  height: 286;
-  display: inline-block;
+  max-width: 267px;
+
+
   border: 1px solid black;
   line-height: 1.76;
   color: #221f1f;
@@ -13,7 +13,7 @@
   font-family: 'open_sansbold';
   font-size: 18px;
   font-weight: 900;
-  padding: 15px 0;
+  padding: 18px 0;
   overflow: hidden;
 }
 
@@ -21,7 +21,7 @@ span.title {
   vertical-align: middle;
 }
 
-.features__title{
+.features__title {
   font-size: 11px;
   letter-spacing: 2.6px;
   font-family: 'open_sansbold';
@@ -33,7 +33,9 @@ span.title {
   list-style: disc;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 27px;
+}
+
+.features__col-list {
   margin-bottom: 25px;
 }
 

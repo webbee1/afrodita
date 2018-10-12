@@ -1,4 +1,8 @@
 /*SIDEBAR*/
+.sidebar {
+  padding-right: 17px;
+  margin-left: 24px;
+}
 
 .sidebar__title {
   font-family: 'open_sansbold';
@@ -12,7 +16,6 @@
 .sidebar__title--grey {
   color: #656464;
   margin-bottom: 20px;
-  margin-left: 10px;
 }
 
 .sidebar__image {
