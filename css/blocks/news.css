@@ -6,7 +6,7 @@
 }
 
 .newsbox .col__left--news:first-child {
-  padding-right: 40px;
+  padding-right: 28px;
 }
 
 .col__right--news {
@@ -19,7 +19,7 @@
   padding-right: 50px;
 }
 
-.title__section--black {
+.title {
   color: #221f1f;
   font-family: 'open_sansbold';
   font-size: 49px;
@@ -29,12 +29,12 @@
   text-align: left;
   overflow: hidden;
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .news__list {
   display: inline-block;
-  margin-bottom: 65px;
+  margin-bottom: 57px;
 }
 
 .news__item {

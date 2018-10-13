@@ -1,8 +1,6 @@
 /*FEAUTURES*/
 .features {
-  max-width: 267px;
-
-
+  width: 267px;
   border: 1px solid black;
   line-height: 1.76;
   color: #221f1f;

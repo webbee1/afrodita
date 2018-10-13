@@ -1,4 +1,3 @@
-
 .news__container--left {
   padding: 10px 0;
 }
@@ -26,6 +25,8 @@
   padding: 2px 4px;
 }
 
-.news__list--left {
+
+.col__right--rev {
   margin-bottom: 0;
+  padding: 48px 16px;
 }

@@ -1,6 +1,7 @@
 .logo {
   width: 50%;
-  text-align: left
+  text-align: left;
+  padding:0 34px;
 }
 
 .logoletter {

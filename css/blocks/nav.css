@@ -1,8 +1,9 @@
 /*NAV*/
-.nav {
+
+nav.nav{
   max-width: 150px;
-  margin:0 auto;
-  margin-bottom: 27px;
+  margin:25px 35px auto 2px;
+  margin-bottom:0;
 }
 .nav__list{
   margin-bottom:65px;
