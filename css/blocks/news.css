@@ -3,6 +3,7 @@
   display: flex;
   margin-bottom: 19px;
   margin-top: 0;
+  
 }
 
 .newsbox .col__left--news:first-child {
@@ -12,6 +13,7 @@
 .col__right--news {
   flex: 1;
   text-align: left;
+ 
 }
 
 .col__left--news {
