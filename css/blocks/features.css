@@ -42,9 +42,10 @@ span.title {
   text-align: left;
   letter-spacing: 1.3px;
   margin-bottom: 12px;
+  margin-left:20px;
   list-style: disc;
   line-height: 1.67;
-  padding-left: 9px;
+  
 }
 
 .features__item:last-child {
