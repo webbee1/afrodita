@@ -34,3 +34,23 @@
   filter: grayscale(0%) opacity(100%);
   transition: 1s;
 }
+.partners {
+  line-height: 0.78;
+  letter-spacing: 2.5px;
+  text-align: left;
+  color: #221f1f;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.partners__title{
+  color: #221f1f;
+    font-family: 'open_sansbold';
+    font-size: 49px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: left;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 27px;
+}

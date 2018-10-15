@@ -5,7 +5,7 @@
   font-size: 16px;
   color: #656464;
   text-align: center;
-  padding:65px 0;
+ margin-bottom:80px;
 }
 
 .paginator__block {
@@ -49,5 +49,5 @@
   color: #f89513;
 }
 .paginator--left{
-  margin-bottom:0;
+  margin-bottom:67px;
 }
