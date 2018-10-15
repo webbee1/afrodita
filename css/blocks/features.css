@@ -40,7 +40,7 @@ span.title {
   cursor: pointer;
 }
 
-.features__col-list:las-child {
+.features__col-list:last-child {
   margin-right: 0;
 }
 
