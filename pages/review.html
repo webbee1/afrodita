@@ -51,7 +51,7 @@
     </header>
     
     <!-- REVIEW-->
-    <section class="rewiew">
+   
       <main class="main">
         <div class=" container container--mid">
           <div class="breadcrumbs">
@@ -64,22 +64,22 @@
               </li>
             </ul>
           </div>
-          <div class="news--rewiew">
-            <div class="title__section title__section--left">
+          <div class="news--review">
+            <h3 class="title__review">
               Отзывы
-            </div>
-            <article class="news news__container">
-              <ul class="news__list news__list--left">
-                <li class="news__item news__item--left">
-                  <div class="news__item-wrap news__item-wrap--left">
+            </h3>
+            <div class="news__container">
+              <ul class="news__list--left">
+                <li class="news__item">
+                  <div class="news__item-wrap--left">
                     <div class="news__ava news__ava--left">
                       <img src="../images/comments/fitboy.png" alt="sportsman" class="news__image">
                     </div>
-                    <div class="news__content news__content--left">
+                    <div class="news__content--left">
                       <div class="news__content-date">
                         12.10.2016
                       </div>
-                      <h3 class="news__content-title">Алексей Воронов
+                      <h3 class="news__occ">Алексей Воронов
                       </h3>
                       <div class="news__content-text">
                         Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву,
@@ -91,16 +91,16 @@
                   </div>
                 </li>
 
-                <li class="news__item news__item--left">
-                  <div class="news__item-wrap news__item-wrap--left">
+                <li class="news__item">
+                  <div class="news__item-wrap--left">
                     <div class="news__ava news__ava--left">
                       <img src="../images/comments/fitgirl.png" alt="fitness" class="news__image">
                     </div>
-                    <div class="news__content news__content--left">
+                    <div class="news__content--left">
                       <div class="news__content-date">
                         01.02.2016
                       </div>
-                      <h3 class="news__content-title">Инна Смольная</h3>
+                      <h3 class="news__occ">Инна Смольная</h3>
                       <div class="news__content-text">
                         Подарили на день рождения абонемент в бассейн, пришлось воспользоваться.
                         Сама бы я сюда не пришла, не очень нравится плавать с мужиками, которые пялятся
@@ -112,16 +112,16 @@
                   </div>
                 </li>
 
-                <li class="news__item news__item--left">
-                  <div class="news__item-wrap news__item-wrap--left">
+                <li class="news__item">
+                  <div class="news__item-wrap--left">
                     <div class="news__ava news__ava--left">
                       <img src="../images/comments/logogrey.png" alt="avatar" class="news__image">
                     </div>
-                    <div class="news__content news__content--left">
+                    <div class="news__content--left">
                       <div class="news__content-date">
                         22.12.2015
                       </div>
-                      <h3 class="news__content-title">Владимир Савельев</h3>
+                      <h3 class="news__occ">Владимир Савельев</h3>
                       <div class="news__content-text">
                         Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит. Если хотите
                         большего, то обращайтесь в специализированные тренажерки с новым железом и европейской
@@ -131,16 +131,16 @@
                   </div>
                 </li>
 
-                <li class="news__item news__item--left">
-                  <div class="news__item-wrap news__item-wrap--left">
+                <li class="news__item">
+                  <div class="news__item-wrap--left">
                     <div class="news__ava news__ava--left">
                       <img src="../images/comments/gymgirl.png" alt="gym" class="news__image">
                     </div>
-                    <div class="news__content news__content--left">
+                    <div class="news__content--left">
                       <div class="news__content-date">
                         01.02.2016
                       </div>
-                      <h3 class="news__content-title">Ирина Савина
+                      <h3 class="news__occ">Ирина Савина
                       </h3>
                       <div class="news__content-text">
                         14.08.2015
@@ -157,7 +157,7 @@
               </ul>
 
           </div>
-            </article>
+        </div>
           <!--Paginator-->
           <div class="paginator paginator--left">
             <span class="paginator__block">Страница 1 из 7</span>
@@ -188,8 +188,7 @@
             <a href="#" class="paginator__btn paginator__link">&gt;</a>
           </div>
 
-    </section>
-
+</div>
     <!--BENEFITS -->
     <section class="benefits">
       <div class="container container--mid">
@@ -203,23 +202,25 @@
     </section>
 
     <!-- FORM-->
-    <div class="container container--mid">
+    <div class="newbox-form">
+      <div class="container container--mid">
       <form class="form" action="" method="get">
-        <div class="form__title">Оставить отзыв</div>
+        <h2 class="form__title">Оставить отзыв</h2>
         <div class="form__row">
           <div class="form__input-block">
-            <div class="form__label">Ваше имя</div>
+            <label class="form__label">Ваше имя</label>
             <input class="form__input-text" placeholder="Андрей" type="text">
           </div>
           <div class="form__input-block">
-            <div class="form__label">Ссылка на профиль VK</div>
+            <label class="form__label">Ссылка на профиль VK</label>
             <input class="form__input-text" placeholder="vk.com/example" type="text">
           </div>
         </div>
         <div class="form__row-one">
-          <div class="form__label">Текст отзыва</div>
-          <textarea class="form__textarea" name="" id="" cols="30" rows="10"></textarea>
+          <label class="form__label">Текст отзыва</label>
+          <textarea class="form__textarea" name="" id="" cols="" rows=""></textarea>
         </div>
+
 
 
         <div class="form__row">
@@ -249,6 +250,7 @@
   
   <!--END FORM-->
   </div>
+</div>
   </main>
 
   <!-- Footer-->

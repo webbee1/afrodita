@@ -1,18 +1,18 @@
-/*NEWS*/
 
 .title__section--black {
   color: #221f1f;
   text-align: center;
+  margin-bottom:0;
 }
 
 .news__list {
   display: inline-block;
-  margin-bottom: 35px;
+padding:15px 0;
 }
 
 .news__item {
   margin-bottom: 30px;
-  padding: 9px 0;
+  padding: 2px 0;
 }
 
 .news__item:not(:last-child) {
@@ -34,7 +34,7 @@
 
 .news__content {
   width: 650px;
-  margin-left: 15px;
+ 
   display: inline-block;
   font-size:18px;
   font-family: 'open_sanslight;
@@ -67,5 +67,8 @@
 
 .news__ava {
   display: inline-block;
-
+margin-right:15px;
+}
+.news__item:last-child{
+  margin-bottom:0;
 }

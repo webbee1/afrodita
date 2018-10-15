@@ -14,11 +14,24 @@
 
 .news__ava--left {
   vertical-align: top;
+  margin-right:15px;
+}
+.news__content--left{
+ 
+  font-family: 'open_sanslight';
+  font-weight: 700;
+  color: #656464;
+}
+.news__occ{
+  font-family: 'open_sansbold';
+  font-size:18px;
+  color:#221f1f;
+
+
 }
 
 .news__content--left {
   width: 680px;
-  margin-left: 15px;
   display: inline-block;
 }
 
@@ -28,4 +41,5 @@
 
 .news__list--left {
   margin-bottom: 0;
+  
 }

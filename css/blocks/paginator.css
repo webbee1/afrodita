@@ -5,7 +5,7 @@
   font-size: 16px;
   color: #656464;
   text-align: center;
-  padding-bottom:70px;
+  padding:65px 0;
 }
 
 .paginator__block {
@@ -15,7 +15,6 @@
 
 .paginator__btn--left {
   color: rgba(39, 39, 62, 0.3);
-
 }
 
 .paginator__item,
@@ -23,7 +22,6 @@
 .paginator__list {
   display: inline-block;
   vertical-align: middle;
-
 }
 
 .paginator__item:last-child,
