@@ -34,7 +34,7 @@
 }
 
 .nav__link-main {
-  background: url(../../images/news/home_pulse.png) 0 -35px no-repeat;
+  background: url(../../images/news/) 0 -35px no-repeat;
 }
 
 .nav__link-review {
@@ -67,4 +67,3 @@
 .nav__link--active-review {
   color: #f89513;
 }
-
