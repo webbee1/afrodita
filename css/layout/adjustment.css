@@ -50,13 +50,10 @@ table{
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
-<<<<<<< HEAD:css/adjustment.css
-=======
   
 }
 .container--mid {
   width: 930px;
->>>>>>> week3:css/layout/adjustment.css
 }
 .clearfix:after {
   content: "";
