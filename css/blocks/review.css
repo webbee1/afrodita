@@ -1,0 +1,52 @@
+
+.news__container--left {
+  padding: 10px 0;
+  margin-bottom:40px;
+}
+
+.review,
+.price{
+  color: #221f1f;
+    font-family: 'open_sansbold';
+    font-size: 49px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: left;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 27px;
+}
+
+.news__ava--left {
+  vertical-align: top;
+  margin-right:15px;
+}
+.news__content--left{
+ 
+  font-family: 'open_sanslight';
+  font-weight: 700;
+  color: #656464;
+}
+.news__occ{
+  font-family: 'open_sansbold';
+  font-size:18px;
+  color:#221f1f;
+}
+
+.news__content--left {
+  width: 680px;
+  display: inline-block;
+}
+
+.news__item-wrap--left {
+  padding: 2px 4px;
+}
+
+.news__list--left {
+  margin-bottom: 0;
+  
+}
+.news__review{
+  margin-bottom:66px;
+}

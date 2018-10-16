@@ -1,0 +1,136 @@
+
+/*FEAUTURES*/
+.features {
+  width: 100%;
+  min-height: 570px;
+  background-color: #131415;
+  color: #fff;
+  text-align: center;
+
+}
+
+.title__section {
+  font-family: 'open_sansbold';
+  font-size: 49px;
+  font-weight: 900;
+  line-height: 145px;
+  overflow: hidden;
+}
+
+span.title {
+  vertical-align: middle;
+}
+
+.features__col {
+  margin: 0px auto;
+  list-style: none;
+  padding: 0;
+  font-size: 0;
+  margin-bottom: 7px;
+}
+
+.features__col-list {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
+  margin-right: 6px;
+  padding: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.features__col-list:last-child {
+  margin-right: 0;
+}
+
+
+.features__col-list:hover {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 6px;
+  padding: 15px;
+  overflow: hidden;
+  border-radius: 10;
+  background-color: rgba(48, 47, 49, 0.4);
+}
+
+.features__col-list:hover {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 6px;
+  padding: 15px;
+  overflow: hidden;
+  border-radius: 10;
+  background-color: rgba(48, 47, 49, 0.4);
+}
+
+.features__col-list:last-child {
+  margin-right: 0;
+}
+
+.features__image {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  margin: 0 auto 43px;
+}
+
+.features__image-unique {
+  background: url('../../images/news/flower.png')center no-repeat;
+  background-color: #f89513;
+}
+
+.feautures__image-premium {
+  background: url('../../images/news/mark-as-favorite-star.png')center no-repeat;
+  background-color: #f89513;
+}
+
+.feautures__image-trainer {
+  background: url('../../images/news/painter-palette.png')center no-repeat;
+  background-color: #f89513;
+}
+
+.features__title {
+  font-size: 11px;
+  letter-spacing: 2.6px;
+  font-family: 'open_sansbold';
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.features__desc,
+.feature__list {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.67;
+  vertical-align: middle;
+}
+
+span.features__desc {
+  display: block;
+
+}
+
+.features__list {
+  list-style: disc;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 7px;
+  padding: 5px;
+}
+
+.features__item {
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 1.3px;
+  margin-bottom: 12px;
+  list-style: disc;
+  line-height: 1.67;
+}
+
+.features__item:last-child {
+  margin-bottom: 0;
+}
