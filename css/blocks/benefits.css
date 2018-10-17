@@ -1,0 +1,27 @@
+.benefits {
+  width: 100%;
+  min-height: 171px;
+  background-color: #131415;
+  background-image: url(../../images/pattern/pattern.png);
+  display: block;
+  margin-bottom: 65px;
+}
+
+.benefits__desc {
+  max-width: 674px;
+  font-size: 18px;
+  font-family: 'open_sanslight';
+  font-weight: 300;
+  color: #fff;
+  text-align: left;
+  line-height: 1.67;
+  width: 80%;
+  margin: 0 auto;
+  padding: 19px 4px;
+}
+
+.benefits--text {
+  font-family: 'open_sansbold';
+  color: #f89513;
+  font-weight: bold;
+}

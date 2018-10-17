@@ -1,0 +1,114 @@
+/*FEAUTURES*/
+.features {
+  width: 100%;
+  min-height: 570px;
+  background-color: #131415;
+  text-align: center;
+  margin-bottom:56px;
+}
+
+.title__section {
+  font-size: 49px;
+  letter-spacing: 1.5px;
+  line-height: 145px;
+  overflow: hidden;
+}
+
+.features__col {
+  padding: 0;
+  font-size: 0;
+}
+
+.features__col-list {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
+  margin-right: 7px;
+  padding: 18px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.features__col-list:last-child {
+  margin-right: 0;
+}
+
+.features__col-list:hover {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
+  margin-right: 7px;
+  padding: 18px;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: rgba(48, 47, 49, 0.4);
+}
+
+.features__col-list:last-child {
+  margin-right: 0;
+}
+
+.features__image {
+  display: inline-flex;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  margin: 0 auto 23px;
+}
+
+.features__image-unique {
+  background: url('../../images/sprites/sprite_big.png') -56px -58px no-repeat;
+  background-color: #f89513;
+}
+
+.feautures__image-premium {
+  background: url('../../images/sprites/sprite_big.png') 14px -59px no-repeat;
+  background-color: #f89513;
+}
+
+.feautures__image-trainer {
+  background: url('../../images/sprites/sprite_big.png')-129px -58px no-repeat;
+  background-color: #f89513;
+}
+
+.features__title {
+  font-size: 11px;
+  letter-spacing: 2.6px;
+  line-height: 4.68;
+  font-family: 'open_sansbold';
+  font-weight:800;
+  text-align: center;
+}
+
+.features__desc,
+.feature__list,
+.features__item {
+  font-size: 18px;
+  font-family: 'open_sanslight';
+  line-height: 1.67;
+  vertical-align: middle;
+}
+
+span.features__desc {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.features__list {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.features__item {
+  text-align: left;
+  list-style: disc;
+  list-style: outside;
+  margin-bottom: 8px;
+}
+
+.features__item:last-child {
+  margin-bottom: 0;
+}

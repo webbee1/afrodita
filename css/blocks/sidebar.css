@@ -1,0 +1,36 @@
+
+/*SIDEBAR*/
+.sidebar {
+  display:inline-flex;
+ align-self:flex-start;
+  flex-direction: column;
+}
+
+.sidebar__title {
+  font-family: 'open_sansbold';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.75;
+  letter-spacing: 2.4px;
+  text-align: left;
+  color: #221f1f;
+}
+
+.sidebar__title--grey {
+  color: #656464;
+  margin-bottom:15px;
+}
+
+.sidebar__images {
+	align-items:flex-start;
+  text-align: center;
+  
+}
+.sidebar__image{
+  width: 160px;
+  overflow:hidden;
+  margin-bottom:17px;
+}
+.sidebar__image:last-child {
+  margin-bottom: 0;
+}

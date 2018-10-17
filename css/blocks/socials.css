@@ -1,0 +1,64 @@
+
+.socials {
+  display: inline-block;
+  text-align: left;
+}
+
+.socials__title {
+  margin-bottom: 8px;
+  font-weight: 800;
+}
+
+.socials__item {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.socials__link:hover {
+  background-color: #f89513;
+  transition: 0.5s;
+}
+
+.socials__link--vk {
+  background: url('../../images/sprites/sprite_all.png') 66px 44px;
+  background-color: #d0d0d0;
+}
+
+.socials__link--fb {
+  background: url('../../images/sprites/sprite_all.png') -67px 41px;
+  background-color: #d0d0d0;
+}
+
+.socials__link--goo {
+  background: url('../../images/sprites/sprite_all.png') 20px 42px;
+  background-color: #d0d0d0;
+}
+
+.socials__link--tw {
+ background: url('../../images/sprites/sprite_all.png') 35px 43px;
+ background-color: #d0d0d0;
+ 
+}
+
+.socials__link--mail {
+  background: url('../../images/sprites/sprite_all.png') 50px 43px;
+  background-color: #d0d0d0;
+}
+
+.socials__link--vk:hover {
+  background: url('../../images/sprites/sprite_all.png') 66px 22px;
+  background-color: #f89513;
+}
+
