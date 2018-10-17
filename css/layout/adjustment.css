@@ -58,7 +58,7 @@ table{
   justify-content:space-between;
   align-items:center;
   margin-bottom:50px;
-  
+  border:1px solid red;
 }
 .container {
   max-width: 1100px;
@@ -66,8 +66,11 @@ table{
   padding: 0 20px;
   
 }
-.container--mid {
+.container-mid {
   width: 930px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border:1px solid green;
 }
 
 .clearfix:after {
@@ -82,12 +85,10 @@ table{
 }
 
 /*UPPERCASE*/
-.nav__link,
-.logoletter,
-.title__section,
-.sidebar__title,
-.features__title,
-.title__section--news
+.nav__link,.logoletter,.title__section,
+.sidebar__title,.features__title,
+.title__section--news.review,
+.price,.review__title
 {
   text-transform: uppercase;
 }
