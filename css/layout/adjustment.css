@@ -50,7 +50,6 @@ table{
   flex-wrap:wrap;
   justify-content:space-between;
   align-items:center;
-  
 }
 .flexwrapdown{
   display:flex;
@@ -70,7 +69,6 @@ table{
   width: 930px;
   margin: 0 auto;
   padding: 0 20px;
-  
 }
 
 .clearfix:after {
@@ -88,8 +86,8 @@ table{
 .nav__link,.logoletter,.title__section,
 .sidebar__title,.features__title,
 .title__section--news.review,
-.price,.review__title
-{
+.price,.review__title,.price__title,
+.partners__title{
   text-transform: uppercase;
 }
 
