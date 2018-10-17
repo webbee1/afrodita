@@ -5,7 +5,7 @@
   font-size: 16px;
   color: #656464;
   text-align: center;
- margin-bottom:80px;
+  margin-bottom: 68px;
 }
 
 .paginator__block {
@@ -44,10 +44,11 @@
 }
 
 .paginator__item--active .paginator__link,
-.paginator__item--active .paginator__link:hover{
+.paginator__item--active .paginator__link:hover {
   background-color: #27273e;
   color: #f89513;
 }
-.paginator--left{
-  margin-bottom:67px;
+
+.paginator--left {
+  margin-bottom: 67px;
 }
