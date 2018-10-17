@@ -25,9 +25,14 @@
   display: inline-block;
   width: 48%;
 }
+.form__label,
+.form__input-text,
+.form__radio-text{
+  font-family: 'open_sanslight';
+  font-size: 14px;
+}
 
 .form__label {
-  font-size: 14px;
   color: #221f1f;
   margin-bottom: 10px;
 }
@@ -44,8 +49,6 @@
   box-sizing: border-box;
   outline-color: #f89513;
   border: none;
-  font-size: 14px;
-  font-family: 'open_sanslight';
   padding: 10px;
   color: rgba(34, 31, 31, 0.5);
 }
@@ -101,11 +104,11 @@
 
 .form__radio-text {
   vertical-align: middle;
+  color:#221f1f;
 }
 
 .form__submit-label {
   width: 140px;
-
   display: inline-block;
   background-color: #1c1f1d;
   color: white;

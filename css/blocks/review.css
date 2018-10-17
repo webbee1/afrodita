@@ -1,52 +1,55 @@
-
 .review__list {
   display: inline-flex;
   flex-direction: column;
   align-items: stretch;
-  flex-grow: 2;
 }
-.review__title{
+
+.review__item {
+  padding: 15px 0;
+  margin-bottom: 17px;
+
+}
+
+.review__title {
   color: #221f1f;
-    font-size: 49px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    text-align: left;
-    overflow: hidden;
-    display: inline-block;
-    margin-bottom: 27px;
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 0.78;
+  letter-spacing: 2.5px;
+  text-align: left;
+  overflow: hidden;
+  margin-bottom: 27px;
 }
+
 .review__content-date,
 .review__content-title,
 .review__content-text {
   font-family: 'Roboto';
 }
-.review{
-  margin-bottom:66px;
-}
-.review__content{
+
+.review__content {
   font-size: 18px;
   font-family: 'open_sanslight';
   font-weight: 700;
   color: #656464;
-  max-width: 676px;
   display: inline-block;
-  margin-bottom: 30px;
-  line-height: 21px;
+  line-height: 30px;
 }
+
 .review__content-text {
   font-size: 18px;
   font-weight: 700;
   color: #221f1f;
 }
-.review__occ{
+
+.review__occ {
   font-family: 'open_sansbold';
-  font-size:18px;
-  color:#221f1f;
+  font-size: 18px;
+  color: #221f1f;
 }
 
 .review__item-wrap {
-  display: inline-block;
-  padding: 2px 4px;
+  display: inline-flex;
 }
 
 .review__item:not(:last-child) {
@@ -61,11 +64,6 @@
   overflow: hidden;
 }
 
-.review__ava {
-  vertical-align: top;
-  margin-right:15px;
-}
-
 .review__content-date {
   color: #656464;
   font-size: 14px;
@@ -73,8 +71,6 @@
   font-weight: 400;
   margin-bottom: 7px;
 }
-
-
 
 .review__content-text {
   font-size: 18px;
@@ -88,9 +84,9 @@
 .review__ava {
   display: inline-flex;
   margin-right: 10px;
-
 }
 
 .review__item:last-child {
   margin-bottom: 0;
+  padding-bottom: 0;
 }
