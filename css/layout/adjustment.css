@@ -8,8 +8,7 @@ body {
   background: #fff;
   font-size: 14px;
   color: #fff;
-  font-family: 'open_sansbold', Arial, Helvetica, sans-serif;
-  font-weight:300;
+  font-family: 'open_sansbold';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -51,6 +50,7 @@ table{
   flex-wrap:wrap;
   justify-content:space-between;
   align-items:center;
+ /* border:1px solid orangered;*/
 }
 
 .container {
@@ -79,7 +79,9 @@ table{
 .logoletter,
 .title__section,
 .sidebar__title,
-.features__title {
+.features__title,
+.title__section--news
+{
   text-transform: uppercase;
 }
 
