@@ -1,3 +1,4 @@
+
 /* FOOTER*/
 .footer {
   position: relative;
@@ -9,9 +10,10 @@
   margin-top: -77px;
 }
 
-
 .footer__text {
   font-size: 14px;
+  line-height:18px;
+  font-family: 'open_sanslight';
   font-weight: 300;
 }
 
@@ -35,11 +37,14 @@
 
 .footer__col {
   display: inline-block;
-  width: 50%;
+  width: 33.3%;
   vertical-align: middle;
   color: #fff;
 }
 
+.footer__col_mid {
+  text-align: center;
+}
 
 .footer__col_last {
   text-align: right;
