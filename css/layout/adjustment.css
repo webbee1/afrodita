@@ -51,19 +51,26 @@ table{
   justify-content:space-between;
   align-items:center;
 }
+.flexrow{
+  display:flex;
+  flex-flow: row wrap;
+  flex: 0 1 auto;
+  align-items:center;
+  flex-direction:row;
+  
+}
 .flexwrapdown{
   display:flex;
   flex-wrap:wrap;
   justify-content:space-between;
   align-items:center;
   margin-bottom:50px;
-
 }
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  
+ 
 }
 .container-mid {
   width: 930px;
@@ -87,7 +94,7 @@ table{
 .sidebar__title,.features__title,
 .title__section--news.review,
 .price,.review__title,.price__title,
-.partners__title{
+.partners__title, .title__features{
   text-transform: uppercase;
 }
 
