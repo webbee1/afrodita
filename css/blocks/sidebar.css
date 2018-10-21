@@ -4,6 +4,8 @@
   display:inline-flex;
  align-self:flex-start;
   flex-direction: column;
+  order:-1;
+  margin-right:15px;
 }
 
 .sidebar__title {
