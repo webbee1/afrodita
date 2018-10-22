@@ -1,13 +1,4 @@
 /*NAV*/
-.aside {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-start;
-  align-items: center;
-  width: 25%;
-  align-self: stretch;
-  margin-right: 15px;
-}
 
 .nav__list {
     width: 140px;
@@ -44,7 +35,7 @@
 }
 
 .nav__link-main {
-  background: url(../../images/news/home_pulse.png) 0 3px no-repeat;
+  background: url(../../images/news/home_pulse.png) 0 -1px no-repeat;
 }
 
 .nav__link-review {
@@ -62,12 +53,12 @@
 
 .nav__link-review:hover,
 .nav__link--active-review {
-  background: url(../../images/news/home_star.png) 0 -19px no-repeat;
+  background: url(../../images/news/home_star.png) 0 -21px no-repeat;
 }
 
 .nav__link-price:hover,
 .nav__link--active-price {
-  background: url(../../images/news/home_gant.png) 0 -15px no-repeat;
+  background: url(../../images/news/home_gant.png) 0 -20px no-repeat;
 }
 
 .nav__link:hover,
